@@ -3,7 +3,7 @@ import { Header, ListSection, SearchSection } from "../components";
 
 export const Home = () => {
   const [list, setList] = useState([]);
-
+  console.log(list)
 
   const checkTask = (e, id) => {
     if (e.target.checked === true) {
